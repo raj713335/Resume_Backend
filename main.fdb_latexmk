@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742054761.61827 "c:/Users/raj71/Desktop/Intelegix Labs/Resume/main.tex" "main.pdf" "main" 1742054763.75731 2
-  "c:/Users/raj71/Desktop/Intelegix Labs/Resume/main.tex" 1742054756 12008 0b8c24971c4251c4643df39723062ad0 ""
+["pdflatex"] 1742054929.49027 "c:/Users/raj71/Desktop/Intelegix Labs/Resume/main.tex" "main.pdf" "main" 1742054931.34626 2
+  "c:/Users/raj71/Desktop/Intelegix Labs/Resume/main.tex" 1742054924 12022 aa66e14a124a01906d62ab922ea0e540 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1741960067 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1741960079 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1741958903 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -179,9 +179,9 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1741964924 5512713 d5293fe2524c042fff1d1aaaba621917 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741965172 3346138 2e50829236e35540cc59956194cbd19a ""
   "c:/texlive/2025/texmf.cnf" 1741964891 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1742054763 1040 5408c86c91826da486ed3b4742bb8a6d "pdflatex"
-  "main.out" 1742054763 709 07c2bbb0413f5dd918279377da2a4c29 "pdflatex"
-  "main.tex" 1742054756 12008 0b8c24971c4251c4643df39723062ad0 ""
+  "main.aux" 1742054931 1040 5408c86c91826da486ed3b4742bb8a6d "pdflatex"
+  "main.out" 1742054931 709 07c2bbb0413f5dd918279377da2a4c29 "pdflatex"
+  "main.tex" 1742054924 12022 aa66e14a124a01906d62ab922ea0e540 ""
   (generated)
   "main.aux"
   "main.log"
