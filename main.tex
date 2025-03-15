@@ -1,0 +1,275 @@
+%-------------------------
+% Resume in LateX
+% Author : Arnab Das
+% License : MIT
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape Arnab Das} \\ \vspace{1pt}
+    \small \href{tel:+919547966499}{ \raisebox{-0.1\height}\faPhone\ {+91-9685992377}} ~
+    \href{raj713335@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {raj713335@gmail.com}} ~ 
+    \href{https://linkedin.com/in/raj713335}{\raisebox{-0.2\height}\faLinkedinSquare\ {raj713335}}  ~
+    \href{https://github.com/raj713335}{\raisebox{-0.2\height}\faGithub\ {raj713335}} ~
+    \href{https://leetcode.com/u/raj713335/}{\raisebox{-0.2\height}\faCode\ {raj713335}} ~
+    % \href{https://codeforces.com/profile/yourid}{\raisebox{-0.2\height}\faPoll\ \underline{yourid}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Asansol Engineering College}{2016 -- 2020}
+      {B.Tech in Computer Science Engineering - \textbf{CGPA} - \textbf{8.74/10}}{}
+  \resumeSubHeadingListEnd
+  
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {\href{https://www.edgeverve.com/}{EdgeVerve \faExternalLink}}{Sep 2022 -- Present} 
+      {\underline{Senior Member of Technical Staff (PE)}}{}
+      \resumeItemListStart
+        \resumeItem{\normalsize{ Architected and implemented Centralized User Management with IAM and Keycloak, leveraging FastAPI for the backend, leading to 40\% faster authentication processing and enhanced security compliance.}}
+        \resumeItem{\normalsize{ Developed multiple Proof of Concepts (POC) with FastAPI,Gen AI, AI Agents (LangChain, crewai) Kong API Gateway, OIDC, SAML Protocol resulting in 30\% reduced development time for future integrations.}}
+        \resumeItem{\normalsize{ Collaborated with cross-functional teams, ensuring seamless integration of APIs and microservices, which reduced deployment failures by 50\% through robust CI/CD pipelines using Github Actions, Jenkins.}}
+  
+      \resumeItemListEnd
+
+     \resumeSubheading
+      {\href{https://www.infosys.com/}{Infosys \faExternalLink}}{Jan 2021 -- Sep 2022}
+      {\underline{Specialist Programmer}}{}
+      \resumeItemListStart
+        \resumeItem{\normalsize{ Designed and optimized various Logistics backend APIs for XPO Clients, transitioning to FastAPI and Flask with Azure Cloud, RabbitMQ, Kafka, Kibana, Grafana, Prometheus and New Relic leading to 30\% faster data processing and 20\% cost reduction.}}
+        \resumeItem{\normalsize{ Achieved back-to-back victories in the prestigious STG Group Internal Hackathon.}}
+
+  
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {\href{https://www.deere.com/}{John Deere \faExternalLink}}{Aug 2019 -- Mar 2020}
+      {\underline{Software Intern}}{}
+      \resumeItemListStart
+        \resumeItem{\normalsize{ Developed a Tkinter-based dashboard for real-time data visualization, an RPA tool for automated data entry, SAP HANA and ELT pipelines, and an image recognition system using OpenCV and TensorFlow. }}
+  
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+     % Nandi AI
+       \resumeProjectHeading
+          {\href{https://nandi.ai/}{\textbf{\large{\underline{Nandi AI}}} \href{https://nandi.ai/}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{{FastAPI, OpenAI, Gemini, Cohere, LlamaIndex, RAG, Pinecone, Twillo }}}{Jan 2025}
+          \resumeItemListStart
+            \resumeItem{\normalsize{ Generative AI-based tax information portal that leverages semantic splitting, embeddings in Pinecone and MongoDB, to help users query Indian court tax judgments related to Direct and Indirect taxes.}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+     % Hitaya Finance
+       \resumeProjectHeading
+          {\href{https://github.com/IntelegixLabs/HiFi}{\textbf{\large{\underline{Hitaya Finance}}}{ }\faGithub{} \href{https://www.youtube.com/watch?v=Ld7uNF6SpUA}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{{FastAPI, React, Kafka, Keycloak, Kong, PostgreSQL, Gemini, and Stripe }}}{Jun 2024}
+          \resumeItemListStart
+            \resumeItem{\normalsize{ Generative AI-powered financial application that delivers stock analytics, news feeds, and event insights to generate buy-sell decisions based on market sentiments.}}
+            \resumeItem{\normalsize{Created Backend server using the data retrieved and implemented caching as well.}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+    % HitayaOne Project
+       \resumeProjectHeading
+          {\href{https://github.com/IntelegixLabs/HitayaOne_FastAPI}{\textbf{\large{\underline{HitayaOne}}}{ }\faGithub{} \href{https://www.youtube.com/watch?v=6gg_5-BwVTo}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{{ Flask, PostgreSQL, Tensorflow, Pytorch, ReactJS, Neo4j, Google Cloud }}}{Jan 2024}
+          \resumeItemListStart
+            \resumeItem{\normalsize{ Developed Hitaya oneAPI Medical Diagnosis, an AI/ML-powered application that leverages PyTorch, TensorFlow, Scikit-learn, XGBoost, and Pandas to analyze x-ray scans and medical data for accurate diagnosis, aiding healthcare professionals in detecting disease patterns and enhancing patient care.}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+  \resumeSubHeadingListEnd
+\vspace{4pt}
+
+%
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{ Python, Java, JavaScript, SQL }} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{Git, Azure, Google Cloud Platform, PyCharm, VS Code, GitHub }} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Linux, FastAPI, Tensorflow, PyTorch, Angular, React, Docker, Docker, Kong API Gateway, Kubernates, LLMs, Keycloak }} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+ 
+%-----------CERTIFICATIONS---------------
+\section{CERTIFICATIONS}
+
+$\sbullet[.75] \hspace{0.1cm}${\href{https://www.coursera.org/account/accomplishments/specialization/certificate/HTW6T9JV6TWB }{ Generative AI for Software Development Specialization }} \hspace{1.6cm}
+$\sbullet[.75] \hspace{0.1cm}${\href{ https://www.coursera.org/account/accomplishments/specialization/certificate/VM84M4KYXB6Y }{ Tensorflow in Professional }} \\
+$\sbullet[.75] \hspace{0.1cm}${\href{https://www.coursera.org/account/accomplishments/specialization/certificate/8C3LD42HQ2J6 }{ Deep Learning Specialization }} \hspace{1.6cm}
+$\sbullet[.75] \hspace{0.1cm}${\href{ https://www.coursera.org/account/accomplishments/specialization/certificate/SHTEESHQQ8WR }{ Natural Language Processing }} \hspace{1.6cm}
+
+
+\section{PUBLICATIONS}
+\noindent
+\href{https://doi.org/10.2174/2210327911666210120122610}{Construction of Efficient Wireless Sensor Networks for Energy Minimization using a Modified ACO Algorithm} 
+
+
+\section{ACHIEVEMENTS}
+\noindent
+
+$\sbullet[.75] \hspace{0.1cm}${ Won 23+ Global Hackathons } \hspace{1.6cm}
+$\sbullet[.75] \hspace{0.1cm}${ LeetCode 1450+ Question Solved } \\
+$\sbullet[.75] \hspace{0.1cm}${\href{ https://hack2skill.com/hack/informatica-deh-2024 }{ Informatica Data Hackathon}} \hspace{1.6cm}
+$\sbullet[.75] \hspace{0.1cm}${\href{ https://www.hackerearth.com/challenges/hackathon/intel-oneapi-hackathon-for-open-innovation/ }{ Intel® Hackathon for Open Innovation }} \hspace{1.6cm}
+$\sbullet[.75] \hspace{0.1cm}${\href{ https://www.hackerearth.com/challenges/hackathon/accenture-laterals-2/ }{ Accenture Sustainability Hackathon }} \hspace{1.6cm}
+$\sbullet[.75] \hspace{0.1cm}${\href{ https://www.hackerearth.com/challenges/hackathon/kpmgs-fullstack-azure-hiring-challenge/ }{ KPMG Global Hackathon }} \hspace{1.6cm}
+
+\end{document}
