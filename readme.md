@@ -8,4 +8,5 @@
 
 
 [View PDF](https://github.com/raj713335/Resume_Backend/blob/dev/main.pdf)
-<iframe src="https://raj713335.github.io/Resume_Backend/" width="100%" height="600px"></iframe>
+[View Resume Backend](https://raj713335.github.io/Resume_Backend/index.html)
+
