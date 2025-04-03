@@ -5,3 +5,7 @@
 ```
     pdflatex main.tex
 ```
+
+
+[View PDF](https://github.com/raj713335/Resume_Backend/blob/dev/main.pdf)
+<iframe src="https://github.com/raj713335/Resume_Backend/blob/dev/main.pdf" width="100%" height="600px"></iframe>
